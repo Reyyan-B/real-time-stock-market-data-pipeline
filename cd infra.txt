@@ -1,0 +1,7 @@
+cd infra
+docker compose down
+docker compose up -d
+python producer/producer.py
+python consumer/consumer.py
+COMPUTE_WH
+bronze-transactions
